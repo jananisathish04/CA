@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, difference;
+
+    // Input the first integer
+    printf("Enter the first integer: ");
+    scanf("%d", &num1);
+
+    // Input the second integer
+    printf("Enter the second integer: ");
+    scanf("%d", &num2);
+
+    // Perform subtraction
+    difference = num1 - num2;
+
+    // Output the result
+    printf("The difference of %d and %d is %d\n", num1, num2, difference);
+
+    return 0;
+}
